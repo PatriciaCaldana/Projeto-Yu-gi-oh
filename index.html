@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yu-Gi-Oh RPS Animado</title>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Buttons and containers CSS -->
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/container_and_frames.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="rpgui-container framed" id="game-container">
+        <h1>Yu-Gi-Oh: Pedra, Papel e Tesoura</h1>
+
+        <div id="cards-container" class="cards"></div>
+
+        <div id="result"></div>
+
+        <div id="buttons-container">
+            <button class="rpgui-button golden" id="rock-button">Pedra</button>
+            <button class="rpgui-button golden" id="paper-button">Papel</button>
+            <button class="rpgui-button golden" id="scissors-button">Tesoura</button>
+        </div>
+    </div>
+
+    <script src="js/engine.js"></script>
+</body>
+</html>

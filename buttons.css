@@ -1,0 +1,83 @@
+/* button style */
+.rpgui-button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  background: url("https://i.ibb.co/3y6WcXG/button.png") no-repeat center center;
+  background-size: 100% 100%;
+  font-size: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  height: 60px;
+  display: inline-block;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+/* button hover */
+.rpgui-button.hover,
+.rpgui-button:hover {
+  background-image: url("https://i.ibb.co/NxvHW3S/button-hover.png");
+}
+
+/* button clicked */
+.rpgui-button.down,
+.rpgui-button:active {
+  background-image: url("https://i.ibb.co/YbVL9M9/button-down.png");
+}
+
+/* golden button style */
+.rpgui-button.golden {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  background: url("https://i.ibb.co/Lk0ZrKt/button-golden.png") no-repeat center center;
+  background-size: 100% 80%;
+  font-size: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  height: 60px;
+  display: inline-block;
+  padding-top: 5px;
+  padding-left: 35px;
+  padding-right: 35px;
+  overflow: visible;
+}
+
+/* button hover */
+.rpgui-button.golden.hover,
+.rpgui-button.golden:hover {
+  background-image: url("https://i.ibb.co/7gRr6rk/button-golden-hover.png");
+}
+
+/* button clicked */
+.rpgui-button.golden.down,
+.rpgui-button.golden:active {
+  background-image: url("https://i.ibb.co/3YNw5gN/button-golden-down.png");
+}
+
+.rpgui-button.golden:before {
+  content: "";
+  width: 34px;
+  height: 110%;
+  background: transparent url("https://i.ibb.co/mbnSL5g/button-golden-left.png") no-repeat right center;
+  background-size: 100% 100%;
+  margin-left: -46px;
+  margin-top: -5%;
+  float: left;
+}
+
+.rpgui-button.golden:after {
+  content: "";
+  width: 34px;
+  height: 110%;
+  background: transparent url("https://i.ibb.co/NW8wC2L/button-golden-right.png") no-repeat left center;
+  background-size: 100% 100%;
+  margin-right: -46px;
+  margin-top: -5%;
+  float: right;
+}
